@@ -19,7 +19,7 @@ fi
 
 # Nhập token
 printf "${Y}  Nhập GitHub Token (Enter để bỏ qua nếu repo public):${NC} "
-read -rs GH_TOKEN
+read -rs GH_TOKEN </dev/tty
 echo
 
 # Xác định URL clone
