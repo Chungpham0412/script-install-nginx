@@ -1,8 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
-GITHUB_USER="YOUR_USERNAME"
-GITHUB_REPO="YOUR_REPO"
+GITHUB_USER="Chungpham0412"
+GITHUB_REPO="script-install-nginx"
 INSTALL_DIR="/opt/server-manager"
 
 R='\033[0;31m' G='\033[0;32m' Y='\033[1;33m' C='\033[0;36m' NC='\033[0m'
