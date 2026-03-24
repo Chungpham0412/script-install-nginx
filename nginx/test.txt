@@ -1,0 +1,25 @@
+ssh root@103.179.189.161
+
+1m4UjdVGTgqHCojc
+
+rsync -avz --progress /home/chungpq/learning/bash_script_master/ root@103.179.189.161:bash_script_master/
+
+ssh root@103.179.189.161
+
+
+ Tạo database mới? (y/N): y
+  Tên database: test
+  Tên user: test
+  Mật khẩu user: 
+mysql: [Warning] Using a password on the command line interface can be insecure.
+
+  ✓ Database: test
+  ✓ User:     test@localhost
+
+  ──────────────────────────────────────────────────
+    MYSQL 8.0 ĐÃ SẴN SÀNG
+  ──────────────────────────────────────────────────
+  Version:  
+  Kết nối:  mysql -u root -p
+  Service:  systemctl status mysql
+  ──────────────────────────────────────────────────
